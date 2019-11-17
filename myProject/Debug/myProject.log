@@ -1,0 +1,10 @@
+﻿  CBuffer.cpp
+C:\Users\baizhou\source\repos\myProject\CBuffer.h(27,12): error C2365:  “CBuffer::read”: 重定义；以前的定义是“成员函数”
+C:\Users\baizhou\source\repos\myProject\CBuffer.h(18): message :  参见“CBuffer::read”的声明
+C:\Users\baizhou\source\repos\myProject\CBuffer.h(28,13): error C2365:  “CBuffer::write”: 重定义；以前的定义是“成员函数”
+C:\Users\baizhou\source\repos\myProject\CBuffer.h(19): message :  参见“CBuffer::write”的声明
+C:\Users\baizhou\source\repos\myProject\CBuffer.cpp(6,8): error C2039:  “init”: 不是“`global namespace'”的成员
+C:\Users\baizhou\source\repos\myProject\CBuffer.cpp(10,2): error C2065:  “writeOffset”: 未声明的标识符
+  myProject.cpp
+  正在生成代码...
+C:\Users\baizhou\source\repos\myProject\CBuffer.cpp(11,1): error C2143:  语法错误: 缺少“;”(在“}”的前面)
